@@ -10,7 +10,7 @@ const a = parseFloat(prompt('Enter A'));
       let x4;
       if ("ax2 + bx + c = 0")
       {
-         d = b * b - 4 * a * c;
+         d = b * b - (4 * a * c);
          alert("d  дискримінант  =" + d)
       }
       if (d > 0) {
@@ -22,7 +22,7 @@ const a = parseFloat(prompt('Enter A'));
          return ("x не має корнев");
       }
       else if (d === 0) {
-         x = -b / 2 * a;
+         x = -b /( 2 * a);         ;
          return "x =" + x;
       }
       else {
